@@ -15,6 +15,7 @@
 - [ShadowsocksX-NG-R8](https://github.com/paradiseduo/ShadowsocksX-NG-R8/releases)
 
 ## App Store 常用软件
+
 - QQ
 - 微信
 - 钉钉
@@ -25,20 +26,71 @@
 
 ## 工作环境
 
-### iTerm2(Mac终端神器)
+### [iTerm2(Mac 终端神器)](https://www.iterm2.com/downloads.html)
+
+### [Homebrew](https://brew.sh/index_zh-cn)
+
+```sh
+# 阿里云镜像 https://mirrors.aliyun.com/homebrew
+$ git clone https://mirrors.aliyun.com/homebrew/homebrew-core.git/ /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core
+$ sh ./brew-install.sh
+```
 
 ### oh-my-zsh
 
+```sh
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+[Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+
+> ys
+
+### ssh
+
+```sh
+$ ssh-keygen
+```
+
 ### git
+
+```sh
+$ brew install git
+```
 
 ### Node.js
 
-#### yarn
+- yarn
+- nvm
+- nrm
 
-#### nvm
+### [Visual Studio Code](https://code.visualstudio.com/)
 
-#### nrm
+- One Dark Pro(theme)
+- Atom One Dark (theme)
+- Material Icon Theme
+- Chinese (Simplified) Language Pack for Visual Studio Code(VS Code 的中文（简体）语言包)
+- Markdown All in One（Markdown Support for Visual Studio Code）
+- Markdown Preview Github Styling
+- Prettier - Code formatter
+- Formatting Toggle
+- ESLint
+- GitLens — Git supercharged
+- Git History
+- Git Blame
+- Git History Diff
+- Git Merger
+- npm Intellisense
+- Import Cost
+- Code Runner
+- Auto Rename Tag
+- Auto Close Tag
+- Better Comments
+- Color Highlight
+- DotENV
+- Concourse CI Pipeline Editor
+- EditorConfig for VS Code
+- gi
+- Vetur
 
-### VsCode
-
-### Source Tree
+### [Source Tree](https://www.sourcetreeapp.com/)
