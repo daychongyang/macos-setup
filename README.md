@@ -80,6 +80,7 @@ $ brew install yarn
 $ brew install nvm
 
 # nrm
+$ yarn config set registry https://registry.npm.taobao.org/
 $ yarn global add nrm
 ```
 
