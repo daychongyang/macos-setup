@@ -42,9 +42,18 @@ $ sh ./brew-install.sh
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-[Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+[Themes:ys](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
-> ys
+```sh
+$ vim ~/.zshrc
+
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# NVM Stuff
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
+```
 
 ### ssh
 
@@ -60,9 +69,19 @@ $ brew install git
 
 ### Node.js
 
-- yarn
-- nvm
-- nrm
+```sh
+# node.js
+$ brew install node
+
+# yarn
+$ brew install yarn
+
+# nvm
+$ brew install nvm
+
+# nrm
+$ yarn global add nrm
+```
 
 ### [Visual Studio Code](https://code.visualstudio.com/)
 
