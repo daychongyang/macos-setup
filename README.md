@@ -1,8 +1,14 @@
 # MacOS 初始化
 
+
+
 ## 浏览器
 
 - [Google Chrome](https://www.google.cn/chrome/)
+
+## 编辑器
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [typora](https://www.typora.io/)
 
 ## 输入法
 
@@ -82,6 +88,37 @@ $ brew install nvm
 # nrm
 $ yarn config set registry https://registry.npm.taobao.org/
 $ yarn global add nrm
+```
+
+### xcode
+
+```sh
+# install requested for command line developer tools
+$ xcode-select --install
+```
+
+### CocoaPods
+
+```sh
+# 更换镜像
+$ gem sources -l
+$ gem sources --remove https://rubygems.org/
+$ gem sources --add https://gems.ruby-china.com/
+$ sudo gem update --system
+$ sudo gem install -n /usr/local/bin cocoapods
+
+Building native extensions. This could take a while...
+ERROR:  Error installing cocoapods:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Library/Ruby/Gems/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+# Ruby 版本问题
+# https://apple.stackexchange.com/questions/384382/installing-cocoapods-on-macos-mojave
+
+# CocoPods 镜像
+$ cd ~/.cocoapods/repos
+$ pod repo remove master
+$ git clone https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git master
 ```
 
 ### [Visual Studio Code](https://code.visualstudio.com/)
