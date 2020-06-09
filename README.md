@@ -1,12 +1,11 @@
 # MacOS 初始化
 
-
-
 ## 浏览器
 
 - [Google Chrome](https://www.google.cn/chrome/)
 
 ## 编辑器
+
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [typora](https://www.typora.io/)
 
@@ -151,3 +150,16 @@ $ git clone https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git master
 - Vetur
 
 ### [Source Tree](https://www.sourcetreeapp.com/)
+
+### Nginx
+
+#### 编译安装
+
+[源码包](http://nginx.org/en/download.html)
+
+```bash
+tar zxvf nginx-1.8.0.tar.gz
+cd nginx-1.8.0
+sudo ./configure
+sudo make install
+```
